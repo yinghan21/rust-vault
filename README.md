@@ -11,6 +11,13 @@ aliases:
 
 # 🦀 Rust 学习宝库
 
+![Rust 学习宝库](99-%E9%99%84%E4%BB%B6/banner.png)
+
+![Rust](https://img.shields.io/badge/Rust-1.99.1-000000?logo=rust&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Obsidian](https://img.shields.io/badge/Obsidian-vault-7C3AED?logo=obsidian&logoColor=white)
+![Notes](https://img.shields.io/badge/notes-246-blue)
+
 一个中文 Rust 知识库，配套一份**标准库 `std` 中文参考**。全部内容为 Markdown，用 [Obsidian](https://obsidian.md/) 打开即可获得双链、关系图、标签与全文搜索。
 
 > [!tip] 在 GitHub 上阅读
@@ -81,3 +88,8 @@ Rust学习宝库/
 - [[学习路线]]
 - [[标准库总览]]
 - [[模块索引]]
+
+## 许可
+
+代码示例与笔记文本以 [MIT License](LICENSE) 发布：可自由使用、修改、再分发，保留版权声明即可。
+如果只想转载文章、不希望被商用，可以改用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)。
