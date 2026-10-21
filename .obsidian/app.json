@@ -1,0 +1,13 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "99-附件",
+  "newFileLocation": "foldername",
+  "showUnsupportedFiles": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "strictLineBreaks": false,
+  "defaultViewMode": "preview",
+  "livePreview": true
+}

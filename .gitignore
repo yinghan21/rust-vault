@@ -1,0 +1,10 @@
+# Obsidian 工作区状态（每台机器不同，不入库）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# 系统与编辑器杂项
+.trash/
+.DS_Store
+Thumbs.db
+desktop.ini

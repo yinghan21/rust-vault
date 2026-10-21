@@ -1,0 +1,8 @@
+{
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "accentColor": "#c9613a",
+  "enabledCssSnippets": [
+    "rust-vault"
+  ]
+}

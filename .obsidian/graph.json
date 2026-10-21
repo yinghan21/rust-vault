@@ -1,0 +1,79 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#rust/基础",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#rust/进阶",
+      "color": {
+        "a": 1,
+        "rgb": 12696013
+      }
+    },
+    {
+      "query": "tag:#std/模块",
+      "color": {
+        "a": 1,
+        "rgb": 5419483
+      }
+    },
+    {
+      "query": "tag:#std/类型",
+      "color": {
+        "a": 1,
+        "rgb": 3050327
+      }
+    },
+    {
+      "query": "tag:#std/特质",
+      "color": {
+        "a": 1,
+        "rgb": 10079352
+      }
+    },
+    {
+      "query": "tag:#rust/实战",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "tag:#std/宏",
+      "color": {
+        "a": 1,
+        "rgb": 13458026
+      }
+    },
+    {
+      "query": "tag:#std/IO",
+      "color": {
+        "a": 1,
+        "rgb": 6463020
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}
