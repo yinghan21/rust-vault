@@ -50,6 +50,8 @@ aliases:
 - **条目页**：`Option`、`Result`、`Vec`、`String`、`HashMap`、`Iterator`、`File`、`Mutex`…… 提供按功能分组的中文方法表、可运行示例、常见陷阱与相关链接。
 - 方法签名与稳定版本号提取自本机 **Rust 1.99.1** 的官方 rustdoc，只收录稳定 API（nightly/已弃用不计入方法表）。
 
+![标准库模块索引](99-%E9%99%84%E4%BB%B6/std-preview.png)
+
 ## 质量校验
 
 - 全部内部 `[[链接]]` 均指向真实笔记（0 断链）。
