@@ -21,6 +21,8 @@ aliases:
 
 **在线阅读（不用装 Obsidian）**：<https://yinghan21.github.io/rust-vault/> —— 双链可点、代码高亮，由 GitHub Actions 自动构建。
 
+[![在线预览](99-%E9%99%84%E4%BB%B6/site-preview.png)](https://yinghan21.github.io/rust-vault/)
+
 一个中文 Rust 知识库，配套一份**标准库 `std` 中文参考**。全部内容为 Markdown，用 [Obsidian](https://obsidian.md/) 打开即可获得双链、关系图、标签与全文搜索。
 
 > [!tip] 在 GitHub 上阅读
@@ -84,6 +86,18 @@ Rust学习宝库/
 - 链接写法：学习笔记用 `[[05-所有权|所有权]]`，std 条目用 `[[option.Option|Option]]`，模块用 `[[fs|std::fs]]`。
 - 模块页末尾的「全部条目」区块由脚本生成，重新生成会覆盖，不要手改。
 - 新增笔记请复制 `90-模板` 中的模板，并遵守 [[写作规范]]。
+
+## 网站是怎么构建的
+
+- 生成器：`sitegen/build.py`，把 Markdown 转成静态 HTML，同时处理 Obsidian 双链、`[!note]` 提示块、代码高亮与侧边栏导航。
+- 每次 push 到 `main`，`.github/workflows/pages.yml` 会自动构建并部署到 GitHub Pages。
+- 本地预览：
+
+  ```bash
+  pip install markdown pygments
+  python sitegen/build.py --vault . --out _site
+  # 然后打开 _site/index.html
+  ```
 
 ## 相关
 
