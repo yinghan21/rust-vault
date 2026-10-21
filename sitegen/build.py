@@ -238,10 +238,14 @@ class Site:
         open(os.path.join(self.out, "assets", "style.css"), "w", encoding="utf-8").write(style)
         shutil.copy(os.path.join(here, "app.js"), os.path.join(self.out, "assets", "app.js"))
 
-        banner = os.path.join(self.vault, "99-附件", "banner.png")
-        if os.path.exists(banner):
-            os.makedirs(os.path.join(self.out, "99-附件"), exist_ok=True)
-            shutil.copy(banner, os.path.join(self.out, "99-附件", "banner.png"))
+        attach = os.path.join(self.vault, "99-附件")
+        if os.path.isdir(attach):
+            dst = os.path.join(self.out, "99-附件")
+            os.makedirs(dst, exist_ok=True)
+            for name in os.listdir(attach):
+                src = os.path.join(attach, name)
+                if os.path.isfile(src):
+                    shutil.copy(src, os.path.join(dst, name))
         open(os.path.join(self.out, ".nojekyll"), "w").write("")
         print("pages:", len(self.pages), "->", self.out)
 
