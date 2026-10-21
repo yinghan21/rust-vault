@@ -13,6 +13,9 @@ aliases:
 
 一个中文 Rust 知识库，配套一份**标准库 `std` 中文参考**。全部内容为 Markdown，用 [Obsidian](https://obsidian.md/) 打开即可获得双链、关系图、标签与全文搜索。
 
+> [!tip] 在 GitHub 上阅读
+> GitHub 不会渲染 Obsidian 双链和 `> [!note]` 提示块：`[[option.Option|Option]]` 会显示成普通文字，提示块会多出 `[!note]` 字样。想看完整效果，请克隆后按下面的「打开方式」用 Obsidian 打开；只查内容的话，从 `10-标准库std/01-模块索引.md` 或各目录的 Markdown 文件点进去即可。
+
 ## 打开方式
 
 1. 安装 Obsidian。
