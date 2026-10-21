@@ -1,0 +1,41 @@
+name: 内容勘误
+description: 报告笔记中的错误、过时 API 或失效链接
+title: "[勘误] "
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 涉及页面
+      description: 笔记标题或相对路径，例如 `10-标准库std/类型/option.Option.md`
+      placeholder: 10-标准库std/类型/option.Option.md
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      options:
+        - 内容错误（描述/结论不对）
+        - 代码示例无法编译/运行
+        - API 签名或版本过时
+        - 链接失效
+        - 错别字/排版
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体描述
+      description: 现在是什么样、应该是什么样；如有报错请粘贴完整信息。
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境（可选）
+      description: rustc 版本、操作系统
+      placeholder: rustc 1.99.1 / Windows 11
+    validations:
+      required: false

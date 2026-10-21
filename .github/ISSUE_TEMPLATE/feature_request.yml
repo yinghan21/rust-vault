@@ -1,0 +1,31 @@
+name: 内容建议
+description: 建议新增主题、补充章节或改进结构
+title: "[建议] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: 方向
+      options:
+        - Rust 语言笔记
+        - 标准库参考
+        - 实战项目
+        - 速查 / 面试
+        - 网站与工具
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 建议内容
+      description: 想补什么、为什么需要、大概包含哪些小节。
+    validations:
+      required: true
+  - type: checkboxes
+    id: willing
+    attributes:
+      label: 参与意愿
+      options:
+        - label: 我可以提交 PR
+        - label: 我只需要内容，不参与写作

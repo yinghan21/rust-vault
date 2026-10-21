@@ -17,6 +17,9 @@ aliases:
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Obsidian](https://img.shields.io/badge/Obsidian-vault-7C3AED?logo=obsidian&logoColor=white)
 ![Notes](https://img.shields.io/badge/notes-246-blue)
+[![在线浏览](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%B5%8F%E8%A7%88-yinghan21.github.io-2ea44f)](https://yinghan21.github.io/rust-vault/)
+
+**在线阅读（不用装 Obsidian）**：<https://yinghan21.github.io/rust-vault/> —— 双链可点、代码高亮，由 GitHub Actions 自动构建。
 
 一个中文 Rust 知识库，配套一份**标准库 `std` 中文参考**。全部内容为 Markdown，用 [Obsidian](https://obsidian.md/) 打开即可获得双链、关系图、标签与全文搜索。
 
